@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+    .box {
+      width: 100px;
+      height: 100px;
+      padding: 20px;
+      margin: 10px;
+    }
+    
+    border: {
+        1px solid black;
+    }
+    .body {
+      display: flex;
+      min-height: 100vh;
+      font-family: 'Roboto';
+      font-style: normal;
+    }
+    .column{
+    flex-direction: column;
+      justify-content: space-between;
+    }
+    @font-face {
+      font-family: 'Roboto';
+      src: url("assets/fonts/RobotoThin.ttf");
+      font-weight: 100;
+    }
+    @font-face {
+      font-family: 'Roboto';
+      src: url("assets/fonts/RobotoRegular.ttf");
+      font-weight: 300;
+    }
+    .container {
+      max-width: 1024px;
+      margin: 0 auto;
+      }
+      .columns{
+        display: inline-block;
+      }
+    .left {
+        margin-top: 40px;
+        padding: 0 40px ;
+        
+      } 
+    .right {
+        width: 70%;
+        float: right;
+        padding: 25px 40px; 
+        border-left: 1px solid;
+        
+      }
+      
+      .work {
+        font-weight: lighter;
+        margin: 0
+      }
+      .header {
+          height: 100px;
+          clear: both;
+          background-color: teal;
+          position: sticky;
+          overflow: auto;
+        }
+      h1{
+        color: teal !important;
+      }
+      .logo {
+        display: block;
+        margin:auto;
+      }
+      .nav-item {
+        color: black;
+        font-size: 20px;
+        display: inline;
+        align-items: middle;
+        justify-content: flex-end;
+        padding: 20px 20px;
+        line-height: 50px;
+        text-decoration: none;
+      } 
+       .nav-list {
+        list-style-type: none;
+        float: center;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        }
+        .nav-link {
+          padding: 40px 5px 40px 5px;
+          line-height: 60px;
+          text-align: center;
+          text-decoration: none;
+          
+        }
+        nav a:hover {
+          background-color: white;
+          text-decoration: none;
+        }
+        
+        nav a:active {
+          color:black;
+        }
+        a[href]{
+          color: black;
+          text-decoration: none;
+        }
+      html {
+        scroll-behavior: smooth; 
+      }
+       
+    
+      .contact {
+        text-decoration: none;
+      }
+        .footer {
+          position: relative;
+          height: 100px;
+          margin-top: -300px;
+          clear: both;
+          background-color: teal;
+          display: flex;
+      }  
+      .image {
+        display: block;
+        margin: auto;
+      }
+        
