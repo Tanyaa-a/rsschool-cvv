@@ -43,7 +43,7 @@
       justify-content: space-between;
       align-items: center;
       flex-shrink: 0;
-      padding: 25px 90px 0 90px;
+      padding: 25px 90px 25px 90px;
       max-width: 1024px;
     }
 
@@ -63,34 +63,46 @@
     }
     
     .contactInfo {
-      padding-left: 0;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      flex-direction: column;
+      padding-left: 0px;
     }
-    
+     .contact {
+      margin: 5px;
+    }
+  
+    .contact :hover {
+      color: teal;
+    }
     .header {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       max-width: 1024px;
-        height: 100px;
-        max-width: 100%;
-        padding-right: 40px;
-        background-color: rgb(164, 225, 225);
-        position: sticky;
+      height: 100px;
+      max-width: 100%;
+      padding-right: 40px;
+      background-color: rgb(164, 225, 225);
+      position: sticky;
       }
-    h1{
+
+    h1 {
       color: teal;
     }
     
     .logo {
-      display: block;
-      margin:auto;
-    }
+       display: block;
+       margin:auto;
+     }
     .nav-item {
       color: black;
       font-size: 20px;
       line-height: 50px;
       
-    } 
+     } 
+
      .nav-list {
       display: flex;
       justify-content: space-between;
@@ -120,9 +132,7 @@
         text-decoration: none;
       }
    
-    .contact {
-      text-decoration: none;
-    }
+    
       .footer {
        margin-top: auto;
         background-color: rgb(164, 225, 225);
